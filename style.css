@@ -9,4 +9,26 @@ body{
       #s1{
         color:green;
       }
-      
+      section{
+        display:flex;
+      }
+      #d1{
+       width:50%;
+       padding:50px;
+      }
+      #d2 img{
+      width:100%;
+      padding-top:32px;
+      }
+      #p1{
+        text-align:justify;
+      }
+      #a1{
+        font-size:20px;
+        font-weight:700px;
+        text-decoration:none;
+        background-image:linear-gradient(green,black);
+        color:white;
+        border:solid black 2px;
+        border-radius:5px;
+      }
