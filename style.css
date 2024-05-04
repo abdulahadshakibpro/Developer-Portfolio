@@ -33,6 +33,13 @@ a{
   background-color:lightgreen;
   border:7px solid lightgreen;
 }
+a:hover{
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+  background-color: orange;
+  border:7px solid orange;
+}
 .experiences-area{
  
 }
@@ -67,6 +74,12 @@ p{
 span{
   color:rgb(34, 158, 34);
 }
+span:hover{
+  color:orange;
+}
 footer{
   text-align:center;
+}
+footer:hover{
+color: orange;
 }
