@@ -1,50 +1,72 @@
 body{
-    font-family: "Roboto", sans-serif;
-    margin:0px;
-  }
-
-section{
+  margin:0;
+}
+.flexiable-container{
   display:flex;
-  margin-bottom:30px;
 }
 .top-banner{
+  padding-top:30px;
   background-image:url(images/top-banner.png);
   background-repeat:no-repeat;
 }
-#dream-big{
+.half-width{
+  padding-left:60px;
+}
+.half-width img{
+  padding-right:60px;
+}
+.dream-big{
   background-image:url(images/dream-bg.png);
   background-repeat:no-repeat;
   background-position:right;
-
-}
-.half-width{
-  width:50%;
-  padding-left:70px;
-  padding-top:30px;
-}
-.half-width img{
-width:60%;
-padding-top:00px;
 }
 #half-width img{
-  padding-left:50px;
+  padding-left:60px;
 }
-.link-button{
+#half-width{
+  padding-right:60px;
+}
+a{
+  font-size:18px;
   text-decoration:none;
-  font-size:20px;
   color:black;
   background-color:lightgreen;
-  border:lightgreen solid 5px;
-  border-radius:5px;
-  background-image:linear-gradient(lightgreen,lightgreen);
+  border:7px solid lightgreen;
+}
+.experiences-area{
+ 
+}
+.experiences-item{
+  width:50%;
+  box-shadow:10px 10px 40px grey;
+  margin-left:5%;
+  margin-right:5%;
+  padding-left:20px;
+  padding-right:20px;
+  margin-top:50px;
+  margin-bottom:30px;
+}
+.green-color{
+  color:rgb(34, 158, 34);
+}
+.orange-color{
+  color:orange;
+}
+.Full-Stack-Web-Developer{
+  border-left:solid 7px orange;
+  border-radius:10px;
+}
+.Juniour-Web-Developer{
+  border-left:solid 7px rgb(34, 158, 34);
+  border-radius:10px;
+}
+p{
+  font-size:18px;
+  text-align:justify;
 }
 span{
   color:rgb(34, 158, 34);
 }
-p{
-  text-align:justify;
-  font-size:17px;
-}
-h1{
-  font-size:30px;
+footer{
+  text-align:center;
 }
